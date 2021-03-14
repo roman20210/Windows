@@ -1,0 +1,506 @@
+\documentclass[titlepage,12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+
+\begin{titlepage}
+
+\title{\textbf{WINDOWS}}
+\author{Johann Alexander Romero Riveros \ \\  ITC -  jaromerorretolau@itc.edu.co \\\ Reporte numero 3}
+\date{\today}
+\end{titlepage}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+
+\section{Introducción}
+Por medio del presente proyecto se dará solución a los ejercicios planteados en la tarea. Además, previamente se harán investigaciones que permitirán la comprensión en su mayoría del tema expuesto ya que se tendrá como objetivo principal, dar una solución donde se evidencie el dominio del tema. Luego, dicho documento será compartido en el perfil personal de GitHub ya que de este se obtendrá el vínculo que será compartido en el repositorio de tareas donde podrá ser calificado.
+\\ {\it Repositorio, GitHub, Overleaf, Proyecto.}
+
+\section{Objetivos}
+\begin{itemize}
+    \item {\it Hacer una previa investigación relacionada con los temas que están propuestos en el ejercicio para así tener un mejor dominio y claridad del tema.}
+    \item {\it Solucionar los ejercicios planteados en clase que darán aprendizaje al manejo de \emph{\textbf{{\LaTeX}}} en \emph{\textbf{Overleaf}}siempre y cuando se solucionen los problemas planteados.} 
+    \item {\it Compartir el documento en el perfil personal de GitHub y luego compartir el vínculo para dar a conocer la solución dada a los problemas presentados. }
+    
+\end{itemize}
+
+\section{Solución de problemas}
+\subsection{¿Qué es Windows?}
+Windows es un sistema operativo creado por la empresa mundialmente reconocida "Microsoft" fundada por Bill Gates y Paul Allen en Estados Unidos. Dicho SO consiste en un software que permite el manejo del hardware que con el pasar de los años va actualizándose a las necesidades del usuario.
+
+\subsection{¿Para que se utiliza el escritorio?}
+Se originó para dar solución a los problemas de organización y permitir el fácil acceso a los programas y operaciones de la computadora, esta función es usada todavía hasta el día de hoy y es algo que ya no le puede faltar a un sistema operativo. 
+
+\subsection{¿Cuáles son los pasos para ver las propiedades de la computadora? (Windows)}
+\subsubsection{Paso 1}
+Dirigirse al menu de windows y luego dar clic en configuraciones:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Captura de pantalla (12).png}
+    \caption{Menu Windows}
+    \label{fig:Menuwindows}
+\end{figure}
+\subsubsection{Paso 2}
+Dar clic en Sistema como se muesta a continuación:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.44]{Menu de configuraciones.png}
+    \caption{Menú de configuraciones}
+    \label{fig:Menudeconfiguraciones}
+\end{figure}
+\subsubsection{Paso 3}
+Dirigirse a la parte inferior del menu que dice \textbf{''Acerca de"} y listo, ya puede observar las propiedades de su Computadora.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Propiedades del PC.png}
+    \caption{Propiedades del PC}
+    \label{fig:PropiedadesdelPC}
+\end{figure}
+\vspace{1cm}
+\subsection{¿Que es un acceso Directo?, ¿como se crea uno? y ¿cuál es la diferencia entre un archivo?}
+Un acceso directo es una carpeta o archivo diseñada para acceder de forma más rápida a un programa, carpeta o página web. Este se crea (en Windows) dándole clic derecho en el escritorio, luego se le da clic en donde dice "nuevo" y por último se da clic donde dice acceso directo y se determina el archivo que quiere crear como acceso directo. Aunque, cuando el usuario descarga una aplicación como Chrome, queda guardada en una carpeta de Windows llamada Google, sin embargo, esta automatizado para crear por sí mismo un acceso directo de este. 
+
+La diferencia entre un acceso directo y un archivo es que el acceso directo permite el acceso inmediato de un archivo que normalmente se encuentra en una carpeta. Por ejemplo, si se descarga una aplicación que el usuario va a usar en su mayoría de tiempo, lo más fácil es acceder a dicha aplicación mediante un acceso directo, mientras que, si esta se contiene únicamente en el archivo, para poder ejecutarla se necesitaría abrir "explorador de archivos" y buscar carpeta por carpeta hasta encontrar la aplicación que se desea ejecutar.
+\subsection{¿Qué es la barra de inicio o de tareas?}
+Una barra de inicio o de tareas es un componente de la interfaz gráfica de un software que normalmente se encuentra en el escritorio de un sistema operativo y que permite el control de diversas aplicaciones. En Windows, esta se puede poner en los 4 bordes del monitor, o existe la función para bloquearla y que se mantenga en un solo lugar.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.24]{Barra de tareas.jpg}
+    \caption{Barra de tareas de Windows}
+    \label{fig:barradetareasdewindows}
+\end{figure}
+\subsection{Si usted desea buscar un archivo dentro del escritorio, pero este tiene demasiado archivo. ¿Como haría para que quedaran de una forma ordenada?}
+\subsubsection{Paso 1}
+Le da clic derecho en el escritorio donde no haya ningún archivo y luego le da clic donde dice \textbf{''Ordenar por:".} 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Captura de pantalla (13).png}
+    \caption{Configuraciones de escritorio}
+    \label{fig:Configuracionesdeescritorio}
+\end{figure}
+\subsubsection{Paso 2}
+Luego aparecerá un menú donde el usuario deberá de indicar como quiere que los archivos del escritorio estén organizados.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.24]{Captura de pantalla (15).png}
+    \caption{Menu de ''Ordenar por"}
+    \label{fig:menudeordenarpor}
+\end{figure}
+\subsection{¿Como ocultar los iconos del escritorio?}
+\subsubsection{Paso 1}
+Le da clic derecho en el escritorio donde no haya ningún archivo y luego le da clic donde dice \textbf{''Ver:"}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.24]{Ver windows.png}
+    \caption{Configuraciones de escritorio"}
+    \label{fig:Configuracionesdeescritorio2}
+\end{figure}
+\subsubsection{Paso 2}
+luego se desplegara un menú dodne el usuario tendra que dar clic en la opción de \textbf{"Mostrar iconos del escritorio"}, y listo, ya no se ven los archivos en el escritorio.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.24]{Captura de pantalla (17).png}
+    \caption{Menú de "ver"}
+    \label{fig:Menúde"ver"}
+\end{figure}
+\vspace{1 cm}
+\subsection{¿Como se borran los archivos o carpetas de la papelera de reciclaje?}
+Normalmente se arrastran las carpetas o los archivos hacia la papelera de reciclaje, pero estos archivos solo van a quedar en la carpeta de papelera. Para borrar los archivos por completo se tiene que dar clic derecho sobre la papelera y luego se da clic donde dice "vaciar papelera de reciclaje", de esta manera los archivos se eliminan por completo.
+\subsection{¿Cuáles son los pasos que se realizan para saber si todos los controladores están instalados?}
+\subsubsection{Paso 1}
+Buscar en el menú de Windows ''Panel de control'' y darle clic.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Captura de pantalla (18).png}
+    \caption{Panel de control en el menú de busqueda de Windows}
+    \label{fig:Menúdepaneldecontrol}
+\end{figure}
+\vspace{1 cm}
+\subsubsection{Paso 2}
+Cuando se encuentre en panel de control dele clic en donde dice ''Sistema y seguridad'' y luego donde dice "Sistema".
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Menu de panel de control.png}
+    \caption{Panel de control (Windows)}
+    \label{fig:Paneldecontrolwindows}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Sistema y seguridad.png}
+    \caption{Sistema y seguridad (Windows)}
+    \label{fig:Sistemayseguridadwindows}
+\end{figure}
+\newpage
+\subsubsection{Paso 3}
+Después, darle clic donde dice ''Administrador de dispositivos''.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.34]{Sistema.png}
+    \caption{Sistema (Windows)}
+    \label{fig:Sistemawindows}
+\end{figure}
+\subsubsection{Paso 4}
+Luego de haberle dado clic ahí, aparecerá una ventana donde se mostrará los dispositivos de la computadora, el usuario deberá buscar el controlador que desea actualizar, dándole clic en las propiedades del dispositivo y luego en actualizar controlador. Desde ahí, el usuario podrá ver o si están instaladas las últimas versiones del controlador o no.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.24]{Captura de pantalla (21).png}
+    \caption{Estado del controlador del dispositivo}
+    \label{fig:Controlador}
+\end{figure}
+\subsection{Que es el panel de control, y en resumen para que sirve}
+
+Es una herramienta que permite modificar diversos parámetros en la configuración de un software o de un hardware.
+En el sistema operativo Microsoft Windows, el panel de control funciona como un menú que brinda acceso a distintas opciones vinculadas a la usabilidad de los periféricos y los programas que un usuario tiene en su computadora. Su objetivo es facilitar la configuración del sistema. (Pérez Porto y Gardey, 2013)
+
+\subsection{Que significa los siguientes iconos y para qué se utilizan}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.47]{MI pc.PNG}
+    \caption{Icono de mi Pc }
+    \label{fig:Mipc}
+\end{figure}
+El icono Mi PC es un acceso directo que abrirá dicha ubicación en el explorador de Windows. Desde allí, puedes gestionar tus archivos, programas y carpetas, teniendo acceso a todos los datos alojados en tu computador. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.58]{papelera-de-reciclaje.jpg}
+    \caption{Icono de Papelera de reciclaje}
+    \label{fig:Papelera}
+\end{figure}
+
+  La Papelera de reciclaje es una función que ofrecen los sistemas operativos modernos para preservar archivos considerados inútiles antes de eliminarlos definitivamente.
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.05]{Icono de paint.jpg}
+    \caption{Icono de Paint}
+    \label{fig:Paint}
+\end{figure}
+
+ Paint es un programa de Windows que sirve para dibujar. Con él se pueden hacer carteles, tarjetas de cumpleaños y otras festividades, afiches, volantes, etc.
+ 
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.14]{Icono de internet explorer.jpg}
+    \caption{Icono de Internet Explorer}
+    \label{fig:Internetexporer}
+\end{figure}
+Internet Explorer, anteriormente llamado Microsoft Internet Explorer, fué un navegador web desarrollado por Microsoft para su sistema operativo Windows pero que fue remplazado por Microsoft Edge debido a su mal funcionamiento.
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.14]{Icono de Adobe Acrobat.png}
+    \caption{Icono de Adobe Acrobat}
+    \label{fig:Adobeacrobat}
+\end{figure}
+
+Es un programa desarrollado por la empresa Adobe Systems, diseñado para la creación, visualización y modificación de archivos en formato PDF.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.05]{Icono de WinRar.jpg}
+    \caption{Icono de WinRar}
+    \label{fig:WinRar}
+\end{figure}
+
+El programa WinRAR proporciona la posibilidad de comprimir numerosos archivos en uno solo, haciendo así dos tareas al mismo tiempo.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.19]{Icono de Word.jpg}
+    \caption{Icono de Word}
+    \label{fig:Word}
+\end{figure}
+
+Microsoft Word en sus inicios empezo como un simple procesador de textos pero que hoy en día se ha convertido en un software informatico que incorpora herramientas inteligentes de corrección de ortografía, gramática y estilo.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.45]{Icono de excel.PNG}
+    \caption{Icono de Excel}
+    \label{fig:Excel}
+\end{figure}
+
+En Excel se pueden realizar cálculos básicos, aplicar funciones matemáticas más complejas e incluso utilizar funciones estadísticas.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.15]{Icono de Power Point.jpg}
+    \caption{Icono de Power Point}
+    \label{fig:Powerpoint}
+\end{figure}
+
+PowerPoint es un programa informático que tiene como fin realizar presentaciones en forma de diapositivas con los mismos recursos que posee el paquete de Office.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.32]{Icono de Calculadora.PNG}
+    \caption{Icono de Calculadora}
+    \label{fig:calculadora}
+\end{figure}
+
+Calculadora es una calculadora virtual presente en todos los sistemas operativos de Microsoft Windows.
+\subsection{Para qué sirven los siguientes iconos o combinaciones de teclas en Windows}
+\begin{itemize}
+ \item \textbf{F1:}
+
+Esta tecla sirve para abrir una ventana de ayuda en el programa o aplicación que tengamos abierto en ese momento.
+
+   
+\item \textbf{F3:}
+
+Abre una ventana de búsqueda cuando estamos en el escritorio de Windows o en el explorador.
+
+ \item \textbf{Alt+Tab:} 
+
+Al pulsar esta combinación de teclas, Windows nos muestra una especie de menú o ventana flotante sobre todo lo que tenemos abierto en el escritorio, que nos permite movernos de una ventana o aplicación a otra con un simple toque de tecla.
+
+ \item \textbf{Tecla Win +:}
+
+Esta combinación de teclas sirve como lupa, sirve para aumentar el zoom de la interfaz en la que se está.
+
+ \item \textbf{Tecla win + M:}
+
+Minimiza todas las ventanas abiertas.
+
+ \item \textbf{Ctrl + Esc:}
+
+Abre el inicio de  Windows.
+
+ \item \textbf{Ctrl + C:}
+
+ Copia el elemento seleccionado.
+ 
+ \item \textbf{Ctrl + V:}
+ 
+ Pega el elemento anteriormente seleccionado.
+ 
+  \item \textbf{Ctrl + Z:}
+ 
+ Deshace una acción previamente hecha.
+ 
+ \item\textbf{ Ctrl + X:}
+ 
+ Corta el elemento seleccionado.
+ 
+\item\textbf{F2:}
+
+Cambia el nombre del elemento seleccionado.
+
+\item\textbf{Alt + F4:}
+
+Cierra las perstañas o documentos abiertos y además permite apagar, suspender, reiniciar o bloquear el equipo.
+
+\item\textbf{Ctrl + F4}
+
+Cierra la pestaña o documento activo.
+
+
+\item\textbf{Shift + Supr}
+
+sirve para eliminar un archivo previamente seleccionado.
+
+ \end{itemize}
+ \subsection{Qué es el explorador de Windows y cómo se activa}
+ Consiste en una aplicación para administrar archivos que forma parte del sistema operativo Microsoft Windows. A través de esta herramienta es posible crear, editar o eliminar carpetas, archivos, etc.
+ \subsubsection{¿como abrir el explorador de Windows}
+ Se puede hacer de las siguientes maneras:
+\begin{itemize}
+  
+
+  \item  1. Ingresar en el menu de busqueda de Windows "Explorador de archivos"
+
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.52]{Captura de pantalla (22).png}
+    \caption{Explorador de archivos en el menú de búsqueda de Windows}
+    \label{fig:Exmnu}
+\end{figure}
+  \item 2. Dar clic en la barra de tareas de windows
+   \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.72]{Barra de tareas admin.PNG}
+    \caption{Barra de tareas}
+    \label{fig:brra}
+\end{figure}
+  \item 3. Se puede presionar la tecla Win + E
+  \item 4. También se puede hacer clic derecho en el Icono de Windows para luego presionar donde dice \textbf{''Explorador de archivos"}
+\end{itemize}
+\subsection{¿Cuáles son los pasos para renombrar un archivo o una carpeta?}
+Se puede de las siguientes maneras:
+
+\subsubsection{Manera Número 1}
+
+Dar clic derecho sobre el archivo o carpeta y luego dar clic en la opccion que dice ''Cambiar nombre".
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.22]{Captura de pantalla (23).png}
+    \caption{Opciones de carpeta seleccionada}
+    \label{fig:occ}
+\end{figure}
+
+\subsubsection{Manera Número 2}
+{\setlength{\parindent}{12pt}
+\textbf{Paso 1:}}
+
+Dirigirse al explorador de archivos bien sea desde la barra de tareas, con \textbf{''Tecla Win + E"} o desde el menú de inicio de Windows.
+
+{\setlength{\parindent}{12pt}
+\textbf{Paso 2:}}
+
+Le puede dar clic encima del nombre de la carpeta que quiere cambiar.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.22]{Captura de pantalla (24).png}
+    \caption{Nombre de una carpeta}
+    \label{fig:nc}
+\end{figure}
+
+{\setlength{\parindent}{12pt}\textbf{Paso 2 (Segunda opción:)}}
+
+Tambien se puede dirigir a la opción de inicio y luego donde dice cambiar nombre
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{Captura de pantalla (25).png}
+    \caption{Cambiar el nombre de una carpeta}
+    \label{fig:cncc}
+\end{figure}
+\subsubsection{Manera número 3}
+Puede seleccionar el archivo para luego darle \textbf{F2} e inmediatamente le dará la opción para cambiar el nombre al que se desea.
+\subsection{¿Cuáles son los pasos para ver las propiedades de un archivo o carpeta?}
+Puede hacerlo de las siguientes maneras.
+
+\subsubsection{Manera Número 1}
+Puede hacerlo con tan solo darle clic derecho en la carpeta que desea ver y luego darle clic donde dice \textbf{''Propiedades"} 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.3]{Captura de pantalla (26).png}
+    \caption{Ver propiedades}
+    \label{fig:vp}
+\end{figure}
+\subsubsection{Manera Número 2}
+Puede entrar a administrador de archivos y luego ir al menu de inicio y darle clic donde dice \textbf{''Propiedades"}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.36]{Captura de pantalla (27).png}
+    \caption{Ver propiedades desde Explorador de archivos}
+    \label{fig:vpdea}
+\end{figure}
+
+\subsubsection{Manera Número 3}
+También puede seleccionar el archivo y presionar \textbf{''Alt + Intro"}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.26]{Captura de pantalla (28).png}
+    \caption{Ver propiedades presionado Alt + Intro}
+    \label{fig:vppai}
+\end{figure}
+\subsection{Como se elimina una carpeta o archivo.}
+\subsubsection{Paso 1}
+Seleccione el elemento que quiere eliminar.
+\subsubsection{Paso 2}
+Pulse y mantenga pulsada la tecla Mayús, y luego pulse la tecla Supr de su teclado.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.26]{Captura de pantalla (30).png}
+    \caption{Eliminar una carpeta o archivo de forma permanente}
+    \label{fig:ecafp}
+\end{figure}
+
+\subsection{Que es comprimir o descomprimir un archivo y cuáles son los programas que se usan para llevar a cabo este proceso y cuál es el objetivo principal}
+
+\subsubsection{Comprimir}
+Es un procedimiento que se realiza para reducir el tamaño de un archivo o carpetas y que así ocupen menor espacio en el disco duro del computador
+
+\subsubsection{Descomprimir}
+Sirve para volver el archivo o carpeta comprimidos a su tamaño original
+
+\subsubsection{Programas que sirven para comprimir y descomprimir}
+Los 10 mejores son los Siguientes:
+\begin{itemize}
+\item 7-Zip
+\item WinZip
+\item WinRar
+\item IZArc
+\item PeaZip
+\item HamsterZip Archiver
+\item 7Zipper 2.0
+\item ZArchiver
+\item WinAce
+\item FreeCompressor
+\end{itemize}
+
+\subsubsection{Obejtivo principal de comprimir}
+El objetivo principal de comprimir un archivo es volverlo más pequeño para que ocupe menos espacio en la computadora. Al hacerlo no seafecta el contenido o la estructura del archivo, simplemente se reduce el espacio que ocupa.
+
+\subsection{¿Cuáles son los pasos para recuperar un archivo eliminado?}
+En las versiones actuales solo se puede por medio de una copia de seguridad que brinda Windows y para hacerlo se debe hacer los siguiente:
+
+{\setlength{\parindent}{-1pt}\textbf{Paso 1}}
+
+
+Para abrir copia de seguridad y restaurar, seleccione el botón inicio, seleccione Panel de control, seleccione sistema y mantenimiento y, a continuación, haga clic en copia de seguridad y restauración.
+
+{\setlength{\parindent}{-1pt}\textbf{Paso 2}}
+
+Selecciona \textbf{''Restaurar mis archivos"} y siga los pasos del asistente.
+
+\subsection{Para qué sirve la extensión de un nombre de archivo y que programas identifican las siguientes:}
+\begin{itemize}
+    \item \textbf{XLSX:} Se usa para crear un archivo de Microsoft Excel.
+    \item \textbf{DOCX:} Se usa para crear un archivo de Microsoft Word.
+    \item \textbf{BMP:} Se usa para guardar imagenes de 24 bits y menos, proviene de Microsoft bitmap
+    \item \textbf{JPEG:} Se usa para guardar imagenes
+    \item \textbf{GIF:} Sirve para guardar imagenes con movimiento (sin sonido)
+    \item \textbf{PPT:} Se usa para crear un archivo de Power Point de Microsoft office. 
+    \item \textbf{TXT:} Sirve para guardar un archivo de texto como en Microsoft Word o Bloc de notas
+    \item \textbf{RAR:} Sirve para guardar archivos comprimidos en WinRar
+    \item \textbf{HTML:} Se usa para crear documentos web
+\end{itemize}
+\subsection{Como crear y mostrar archivos ocultos}
+\subsubsection{Crear un archivo oculto}
+Primero que todo se selecciona el archivo con clic derecho, luego le da clic en donde dice "propiedades" y luego le da clic donde dice ''oculto"
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.35]{Captura de pantalla (31).png}
+    \caption{Pasos para ocultar una carpeta}
+    \label{fig:my_label}
+\end{figure}
+\vspace{1 cm}
+\subsubsection{Ver los archivos ocultos}
+Se entra a Explorador de archivos, luego se va al menu que dice "Vista" y por ultimo se da clic en la opcion que dice "Elementos ocultos" y ai se pueden visualizar.
+
+\vspace{1 cm}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.35]{Captura de pantalla (32).png}
+    \caption{Pasos para ver una carpeta oculta}
+    \label{fig:pvcl}
+\end{figure}
+\newpage
+\section{Conclusión}
+En conclusión, se pudo observar que existen muchos atajos que contiene Windows, así mismo, existen cosas que son bastante básicas pero que muchas personas desconocen ya que no lo ponen en práctica muy seguido, pero es necesario conocer de todo eso por si se llega a necesitar en alguna ocasión. Este documento se trató de explicaciones sencillas para esas cosas básicas que son fáciles de olvidar y que pueden ser utilizados en la cotidianidad. 
+\section{Bibliografía}
+\begin{itemize}
+    \item "Windows". Autor: Julia Máxima Uriarte. Para: Caracteristicas.co. Última edición: 21 de noviembre de 2020. Disponible en: https://www.caracteristicas.co/sistema-operativo-windows/. Consultado: 09 de marzo de 2021.
+    \item Autor: Guillem Alsina González | Sitio: Definición ABC | Fecha: febrero. 2009 | URL: https://www.definicionabc.com/tecnologia/escritorio-de-windows.php
+    \item Pérez Porto, J., y Gardey, A. (2013). Definicion.de:. Obtenido de Definicion de panel de control:https://definicion.de/panel-de-control/
+    \item Autores: Julián Pérez Porto y Ana Gardey. Publicado: 2013. Actualizado: 2015.
+Definicion.de: Definición de panel de control (https://definicion.de/panel-de-control/)
+    \item Cantó, J. C. (3 de Julio de 2019). Bilib. Obtenido de https://www.bilib.es/
+    
+    actualidad/blog/noticia/articulo/10-herramientas-digitales-claves-para-comprimir-y-descomprimir-archivos/
+    \item Microsoft. (s.f.). Soporte de Microsoft. Obtenido de https://support.microsoft.com/es-
+    es/windows/recuperar-archivos-perdidos-o-eliminados-
+    
+    7bf065bf-f1ea-0a78-c1cf-7dcf51cc8bfc
+
+\end{itemize}
+\end{document}
